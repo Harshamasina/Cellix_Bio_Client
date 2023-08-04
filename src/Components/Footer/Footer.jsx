@@ -24,19 +24,19 @@ const Footer = () => {
                     <li>
                         <ul className='box'>
                             <li><NavLink to='/'>Home</NavLink></li>
-                            <li><NavLink to='/platfrom_technology'>Platform Technology</NavLink></li>
-                            <li><NavLink to='/pipeline'>Pipeline</NavLink></li>
-                            <li><NavLink to='/patents'>Patents</NavLink></li>
-                            <li><NavLink to='/intellectual_property'>Intellectual Property</NavLink></li>
+                            <li><NavLink to='/PT'>Platform Technology</NavLink></li>
+                            <li><NavLink to='/Pipeline'>Pipeline</NavLink></li>
+                            <li><NavLink to='/Patents'>Patents</NavLink></li>
+                            <li><NavLink to='/IP'>Intellectual Property</NavLink></li>
                         </ul>
                     </li>
                     <li>
                         <ul className='box'>
-                            <li><NavLink to='/inventor'>Inventor</NavLink></li>
-                            <li><NavLink to='/leadership'>Leadership</NavLink></li>
-                            <li><NavLink to='/media'>Media</NavLink></li>
-                            <li><NavLink to='/careers'>Careers</NavLink></li>
-                            <li><NavLink to='/contact'>Contact</NavLink></li>
+                            <li><NavLink to='/Inventor'>Inventor</NavLink></li>
+                            <li><NavLink to='/Leadership'>Leadership</NavLink></li>
+                            <li><NavLink to='/Media'>Media</NavLink></li>
+                            <li><NavLink to='/Careers'>Careers</NavLink></li>
+                            <li><NavLink to='/Contact'>Contact</NavLink></li>
                         </ul>
                     </li>
                 </ul>
