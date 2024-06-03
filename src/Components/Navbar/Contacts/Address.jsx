@@ -5,7 +5,7 @@ const Address = () => {
     return (
         <>
             <CardGroup  className='CUCard'>
-                <Card className='contactCard'>
+                {/* <Card className='contactCard'>
                     <Card.Img className='CCImg' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Address.jpg" />
                     <Card.Body>
                         <Card.Title className='CUCT'>Our Office Address:</Card.Title>
@@ -18,7 +18,7 @@ const Address = () => {
                             </ul>
                         </Card.Text>
                     </Card.Body>
-                </Card>
+                </Card> */}
                 
                 <Card className='contactCard'>
                     <Card.Img className='CCImg' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Contact+Us.jpg" />
@@ -28,7 +28,7 @@ const Address = () => {
                         <ul className='CUUL'>
                             <li className='CUSpan'>Phone : (+91) 40 23545946</li>
                             {/* <li className='CUSpan'>Fax : (+91) 40 23545949</li> */}
-                            <li className='CUSpan'>Email : info@cellixbio.com</li>
+                            <li className='CUSpan'>Email : info@cellixbio.io</li>
                         
                         </ul>
                         </Card.Text>

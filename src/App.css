@@ -2583,6 +2583,12 @@ body{
   
   /* ............................ */
   /* Used for Contact Us */
+
+  .CUCard{
+    width: 60%;
+    margin-left: 20%;
+  }
+
   .ContactCont{
     margin-top: 2%;
   }
@@ -2604,8 +2610,13 @@ body{
   }
   
   @media screen and (max-width:768px) and (min-width:601px) {
+    .CUCard{
+      width: 80%;
+      margin-left: 10%;
+    }
+
     .contactCard{
-      height: 650px !important;
+      height: 400px !important;
     }
   }
   
