@@ -91,7 +91,7 @@ const SearchPatents = () => {
                             <Card style={{ width: '90rem' }} className="shadow-lg PatentsCard">
                             <Card.Body>
                                 <Card.Title>
-                                    <Link className="Wno" to={"/patent/" + patent.wno} target={"_blank"}>
+                                    <Link className="Wno" to={"/PatentInfo/" + patent.wno} target={"_blank"}>
                                         <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
                                     </Link>
                                 </Card.Title>
